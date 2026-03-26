@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <title>SSR Solutions - Website Development for All Businesses</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SSR Solutions</div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#why-choose">Why Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+<section id="home" class="hero">
+        <div class="hero-overlay">
+            <div class="hero-stats">
+                <div class="stat-bubble">
+                    <div class="stat-number">500+</div>
+                    <div>Happy Clients</div>
+                </div>
+                <div class="stat-bubble">
+                    <div class="stat-number">1000+</div>
+                    <div>Projects Live</div>
+                </div>
+                <div class="stat-bubble">
+                    <div class="stat-number">5+</div>
+                    <div>Years Experience</div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Professional Websites That Grow Your Business</h1>
+                <p>Modern, responsive designs for shops, hospitals, bakeries, colleges & more</p>
+                <p>🚀 From ₹15,000 | Launch in 2 weeks | Drive more customers</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                    <a href="#pricing" class="btn btn-secondary">See Packages</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=85" alt="Professional Web Development - SSR Solutions" loading="lazy">
+        </div>
+    </section>
+
+
+
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title" style="color: #6366f1;">Transparent Pricing</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Basic Package</h3>
+                    <div class="price">₹15,000</div>
+                    <ul>
+                        <li>5 Page Website</li>
+                        <li>Responsive Design</li>
+                        <li>Contact Form</li>
+                        <li>Mobile Optimized</li>
+                        <li>1 Month Support</li>
+                    </ul>
+                    <a href="#contact" class="btn">Choose Basic</a>
+                </div>
+                <div class="price-card featured">
+                    <h3>Pro Package</h3>
+                    <div class="price">₹25,000</div>
+                    <ul>
+                        <li>10 Page Website</li>
+                        <li>Responsive + Fast</li>
+                        <li>Online Booking</li>
+                        <li>Customer Login</li>
+                        <li>3 Months Support</li>
+                        <li>SEO Optimized</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Popular Choice</a>
+                </div>
+                <div class="price-card">
+                    <h3>Premium Package</h3>
+                    <div class="price">₹40,000</div>
+                    <ul>
+                        <li>Unlimited Pages</li>
+                        <li>Custom Features</li>
+                        <li>E-commerce Ready</li>
+                        <li>Admin Panel</li>
+                        <li>6 Months Support</li>
+                        <li>SEO + Marketing</li>
+                    </ul>
+                    <a href="#contact" class="btn">Choose Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose" class="why-choose-featured">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="why-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=85" alt="Why Choose Us" loading="lazy">
+                    <div class="image-overlay">
+                        <div class="overlay-text">Trusted by 500+ Businesses</div>
+                    </div>
+                </div>
+                <div class="why-features">
+                    <h2 class="section-title">Why Choose SSR Solutions?</h2>
+                    <div class="feature-list">
+                        <div class="feature">
+                            <div class="feature-icon">⚡</div>
+                            <h3>Lightning Fast</h3>
+                            <p>Delivered in 1-2 weeks</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎨</div>
+                            <h3>Pixel Perfect</h3>
+                            <p>Custom brand design</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">📱</div>
+                            <h3>Mobile-First</h3>
+                            <p>All devices perfect</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🚀</div>
+                            <h3>SEO Ready</h3>
+                            <p>Google ranking boost</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🛠️</div>
+                            <h3>Easy Admin</h3>
+                            <p>No coding needed</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">💰</div>
+                            <h3>Affordable</h3>
+                            <p>Premium at low cost</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="responsive" class="responsive-section">
+        <div class="container">
+            <h2 class="section-title">100% Responsive Design</h2>
+            <p class="section-subtitle">Websites that work perfectly on all devices</p>
+            
+            <div class="nicepage-stats-box">
+                <h3>Websites that work perfectly on all devices</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Device Compatible</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">4.9★</div>
+                        <div class="stat-label">Responsive Rating</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">∞</div>
+                        <div class="stat-label">Screen Sizes</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nicepage-responsive-hero">
+                <img src="nicepage-responsive.jpg" alt="Mobile-friendly web design across all devices" class="nicepage-responsive-img">
+                <div class="nicepage-responsive-text">
+                    <h3>Perfect On Every Device</h3>
+                    <p>Lightning-fast websites optimized for phones, tablets & desktops. Google-speed ready.</p>
+                </div>
+            </div>
+
+            <div class="responsive-confirmation">
+                <p>✓ All websites tested and confirmed friendly across devices</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Services for All Businesses</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏪</div>
+                    <h3>Retail Shops</h3>
+                    <p>E-commerce websites with online ordering, inventory management & customer portals</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🥖</div>
+                    <h3>Bakeries</h3>
+                    <p>Menu showcases, online orders, customer reviews & loyalty programs</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Hospitals</h3>
+                    <p>Appointment booking, patient portals, doctor directories & emergency contacts</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Colleges/Training</h3>
+                    <p>Course catalogs, admissions, student portals & event calendars</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3>Corporate</h3>
+                    <p>Professional business websites with team profiles & service listings</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored websites for any business type with unique requirements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Recent Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="bakery-portfolio.png" alt="Premium Bakery Website" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Premium Bakery</h3>
+                        <p>Online ordering system</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="hospital-portfolio.png" alt="Multi-specialty Hospital Website" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Multi-specialty Hospital</h3>
+                        <p>Appointment booking system</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="college-portfolio.png" alt="Engineering College Website" loading="lazy">
+                    <div class="portfolio-overlay">
+                        <h3>Engineering College</h3>
+                        <p>Admission & student portal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Happy Customers</h2>
+            <div class="google-reviews">
+                <div class="review-block">
+                    <div class="review-header">
+                        <div class="google-icon">Google</div>
+                        <div class="review-stats">
+                            <div class="stars">★★★★★</div>
+                            <span class="review-count">4.9 (127 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="reviews-list">
+                        <div class="review-item">
+                            <div class="review-avatar">S</div>
+                            <div class="review-content">
+                                <div class="review-text">"Transformed our bakery website. Orders up 300%!"</div>
+                                <div class="review-author">
+                                    <strong>Sweet Delights</strong>
+                                    <span>· Bakery Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">C</div>
+                            <div class="review-content">
+                                <div class="review-text">"Hospital appointment system works perfectly!"</div>
+                                <div class="review-author">
+                                    <strong>City Hospital</strong>
+                                    <span>· Administrator</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">T</div>
+                            <div class="review-content">
+                                <div class="review-text">"Students love our new college portal!"</div>
+                                <div class="review-author">
+                                    <strong>Tech College</strong>
+                                    <span>· Principal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">F</div>
+                            <div class="review-content">
+                                <div class="review-text">"E-commerce conversions 3x higher!"</div>
+                                <div class="review-author">
+                                    <strong>Fashion Hub</strong>
+                                    <span>· CEO</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">T</div>
+                            <div class="review-content">
+                                <div class="review-text">"SEO traffic doubled first month!"</div>
+                                <div class="review-author">
+                                    <strong>Training Academy</strong>
+                                    <span>· Director</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">C</div>
+                            <div class="review-content">
+                                <div class="review-text">"Delivered ahead of schedule!"</div>
+                                <div class="review-author">
+                                    <strong>Corporate Ltd</strong>
+                                    <span>· Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">L</div>
+                            <div class="review-content">
+                                <div class="review-text">"Customers love the new design!"</div>
+                                <div class="review-author">
+                                    <strong>Local Shop</strong>
+                                    <span>· Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">M</div>
+                            <div class="review-content">
+                                <div class="review-text">"Fast delivery, great support!"</div>
+                                <div class="review-author">
+                                    <strong>MediCare Clinic</strong>
+                                    <span>· Doctor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">A</div>
+                            <div class="review-content">
+                                <div class="review-text">"Sales up 200% mobile optimized!"</div>
+                                <div class="review-author">
+                                    <strong>Artisan Bakery</strong>
+                                    <span>· Baker</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">M</div>
+                            <div class="review-content">
+                                <div class="review-text">"Launch in 10 days - incredible!"</div>
+                                <div class="review-author">
+                                    <strong>Modern College</strong>
+                                    <span>· Dean</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">S</div>
+                            <div class="review-content">
+                                <div class="review-text">"E-commerce & SEO ready out box!"</div>
+                                <div class="review-author">
+                                    <strong>StyleStore</strong>
+                                    <span>· Founder</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">H</div>
+                            <div class="review-content">
+                                <div class="review-text">"Easy admin, non-tech manage!"</div>
+                                <div class="review-author">
+                                    <strong>HealthHub</strong>
+                                    <span>· Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">P</div>
+                            <div class="review-content">
+                                <div class="review-text">"Best business growth investment!"</div>
+                                <div class="review-author">
+                                    <strong>Pro Training</strong>
+                                    <span>· Instructor</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">E</div>
+                            <div class="review-content">
+                                <div class="review-text">"Custom features perfect - 5★!"</div>
+                                <div class="review-author">
+                                    <strong>Elite Corp</strong>
+                                    <span>· Director</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">Q</div>
+                            <div class="review-content">
+                                <div class="review-text">"Lightning fast loading!"</div>
+                                <div class="review-author">
+                                    <strong>Quick Shop</strong>
+                                    <span>· Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-avatar">S</div>
+                            <div class="review-content">
+                                <div class="review-text">"Affordable premium quality!"</div>
+                                <div class="review-author">
+                                    <strong>Smart Retail</strong>
+                                    <span>· Owner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all" data-toggle="reviews">View all reviews</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact-nicepage">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to start your project? Send us a message!</p>
+            
+            <div class="contact-nicepage-grid">
+                <!-- Contact Info Cards -->
+                <div class="contact-info-card">
+                    <div class="contact-icon-large">📱</div>
+                    <h3>Call / WhatsApp</h3>
+                    <p>+91 91626 61130 36</p>
+                    <a href="https://wa.me/+91916266113036?text=Hi SSR Solutions, I need a professional website!" class="contact-nice-btn">Send Message</a>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon-large">✉️</div>
+                    <h3>Email Us</h3>
+                    <p>shivalord753357@gmail.com</p>
+                    <a href="mailto:shivalord753357@gmail.com?subject=Website Inquiry - SSR Solutions" class="contact-nice-btn">Send Email</a>
+                </div>
+                
+                <div class="contact-info-card">
+                    <div class="contact-icon-large">📍</div>
+                    <h3>Visit Us</h3>
+                    <p>Available Nationwide<br>Remote Development</p>
+                    <a href="https://maps.google.com" class="contact-nice-btn" target="_blank">View Location</a>
+                </div>
+            </div>
+            
+            <!-- Form Card -->
+            <div class="contact-form-card">
+                <h3>Or Fill This Form</h3>
+                <form class="nicepage-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" name="user_name" placeholder="Your Name *" required>
+                        <input type="email" name="user_email" placeholder="Your Email *" required>
+                    </div>
+                    <input type="tel" name="user_phone" placeholder="Phone (optional)">
+                    <textarea name="message" rows="4" placeholder="Tell us about your project *" required></textarea>
+                    <button type="submit" class="nicepage-submit">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading">Sending...</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SSR Solutions - Professional Websites for All Businesses | +91 91626 61130 36</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
